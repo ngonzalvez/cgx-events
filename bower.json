@@ -1,0 +1,24 @@
+{
+  "name": "wb-events",
+  "homepage": "https://github.com/WhitebearTeam/wb-events",
+  "authors": [
+    "ng@whitebear.io"
+  ],
+  "description": "Simplest ever client-side event bus implementation in JS.",
+  "main": "dist/wb-events.min.js",
+  "keywords": [
+    "events",
+    "lightweight",
+    "minimal",
+    "dispatcher",
+    "bus"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
