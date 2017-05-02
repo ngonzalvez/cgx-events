@@ -1,6 +1,6 @@
 {
   "name": "wb-events",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Simplest ever client-side event bus implementation in JS.",
   "main": "dist/wb-events.min.js",
   "directories": {
