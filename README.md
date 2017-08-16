@@ -19,7 +19,7 @@ listen for events on client-side Javascript.
 You can listen for events this way:
 
 ~~~javascript
-window.on('myCustomEvent', function(evt) {
+on('myCustomEvent', function(evt) {
     console.log('An event of type "myCustomEvent" was triggered');
 });
 ~~~
@@ -27,20 +27,20 @@ window.on('myCustomEvent', function(evt) {
 And you can also trigger them:
 
 ~~~javascript
-window.emit('myCustomEvent');
+emit('myCustomEvent');
 ~~~
 
 In case you are wondering, can I send data along with the event? The answer is
 yes, very simple.
 
 ~~~javascript
-window.emit('user:created', { name: 'John' });
+emit('user:created', { name: 'John' });
 ~~~
 
 And you can find it under the `detail` property of the event.
 
 ~~~javascript
-window.on('user:created', function(user) {
+on('user:created', function(user) {
     console.log('User created:', user.name);
 });
 ~~~
