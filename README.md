@@ -1,6 +1,6 @@
 # Event Dispatcher
 
-The simplest ever event dispatcher in 127 bytes (minified).
+The simplest ever event dispatcher in 117 bytes (minified).
 
 
 ### Motivation

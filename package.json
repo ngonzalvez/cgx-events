@@ -1,8 +1,8 @@
 {
-  "name": "wb-events",
+  "name": "cgx-events",
   "version": "1.0.0",
   "description": "Simplest ever client-side event bus implementation in JS.",
-  "main": "dist/wb-events.min.js",
+  "main": "dist/cgx-events.min.js",
   "directories": {
     "example": "examples"
   },
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/WhitebearTeam/wb-events.git"
+    "url": "git+https://github.com/ngonzalvez/cgx-events.git"
   },
   "keywords": [
     "events",
@@ -23,9 +23,9 @@
   "author": "ng@whitebear.io",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/WhitebearTeam/wb-events/issues"
+    "url": "https://github.com/ngonzalvez/cgx-events/issues"
   },
-  "homepage": "https://github.com/WhitebearTeam/wb-events#readme",
+  "homepage": "https://github.com/ngonzalvez/cgx-events#readme",
   "devDependencies": {
     "chai": "^3.5.0",
     "mocha": "^3.3.0"
